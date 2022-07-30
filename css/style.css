@@ -183,3 +183,14 @@ span {
   color: #2e58cc;
   transition: 0.4s;
 }
+
+.bottom {
+  margin-top: 243px;
+  padding-bottom: 40px;
+}
+
+.bottom p {
+  color: #eee;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
