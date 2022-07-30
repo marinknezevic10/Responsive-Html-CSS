@@ -87,3 +87,18 @@ nav .nav-list li a {
   font-size: 15px;
   font-weight: 600;
 }
+nav .nav-list li:not(:last-child) a:hover {
+  color: #2e58cc;
+  transition: 0.4s;
+}
+
+nav .nav-list li.btn a {
+  display: inline-block;
+  background: transparent;
+  border: 2px solid #2e58cc;
+  padding: 9px 28px;
+  border-radius: 30px;
+  line-height: 1.3;
+  color: #2e58cc;
+  font-weight: 500;
+}
