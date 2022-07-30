@@ -176,3 +176,10 @@ span {
   border-radius: 30px;
   cursor: pointer;
 }
+
+.container .hero-text button:hover {
+  background: transparent;
+  border: 2px solid #2e58cc;
+  color: #2e58cc;
+  transition: 0.4s;
+}
