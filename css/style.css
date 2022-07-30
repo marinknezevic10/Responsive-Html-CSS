@@ -23,4 +23,12 @@ body {
     url(../images/1.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+
+.head {
+  padding: 40px 0 30px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
 }
