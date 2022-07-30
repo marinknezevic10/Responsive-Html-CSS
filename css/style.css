@@ -27,7 +27,7 @@ body {
 }
 
 .head {
-  padding: 40px 0 30px;
+  padding: 60px 0 30px;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
@@ -46,4 +46,44 @@ body {
   justify-content: center;
   font-size: 20px;
   cursor: pointer;
+}
+
+nav .hamb {
+  width: 35px;
+  height: 24px;
+  right: 3%;
+  top: 60px;
+  z-index: 5;
+  background: white;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+nav .hamb span {
+  display: block;
+  background: #2e58cc;
+  width: 100%;
+  height: 3px;
+  transition: 0.3s;
+  transition-property: transform, opacity;
+}
+
+nav .hamb span:nth-child(2) {
+  margin: 7px 0px;
+}
+
+nav.nav-list {
+  list-style: none;
+}
+nav .nav-list li {
+  display: inline-block;
+}
+
+nav .nav-list li a {
+  display: inline-block;
+  color: #eee;
+  margin-left: 55px;
+  font-size: 15px;
+  font-weight: 600;
 }
