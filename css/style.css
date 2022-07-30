@@ -109,3 +109,37 @@ nav .nav-list li.btn a:hover {
   border: 2px solid transparent;
   transition: 0.4s;
 }
+
+.container {
+  padding-top: 190px;
+}
+.container .hero-text {
+  margin-bottom: 40px;
+}
+
+.container .hero-text h1 {
+  color: white;
+  font-size: 47px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 20px 0px 20px;
+}
+
+span {
+  color: #2e58cc;
+}
+
+.container .hero-text h3 {
+  color: #eee;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.container .hero-text p {
+  width: 440px;
+  max-width: 100%;
+  color: #eee;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
